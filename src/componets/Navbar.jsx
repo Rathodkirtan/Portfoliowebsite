@@ -44,7 +44,7 @@ function Navbar() {
             </ul>
             <div onClick={() => setbool(!bool)}>
               {bool ? (
-                <i class="fa-solid fa-xmark d-lg-none d-flex justify-content-end align-items-center fs-3"></i>
+                <i className="fa-solid fa-xmark d-lg-none d-flex justify-content-end align-items-center fs-3"></i>
               ) : (
                 <i className="fa-solid fa-bars d-lg-none d-flex justify-content-end align-items-center fs-3"></i>
               )}

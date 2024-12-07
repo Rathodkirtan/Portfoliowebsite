@@ -6,7 +6,7 @@ function Home() {
   return (
     <>
       <div className="container" id="home">
-        <div className="row align-items-center " style={{ height: "100vh" }}>
+        <div className="row align-items-center " >
           <div className="col-lg-6 order-2 order-lg-1">
             <div className="fs-5 lh-ls">Welcome In My Feed</div>
             <div className="lh-lg fs-2">
@@ -52,7 +52,7 @@ function Home() {
             <img
               src={logo}
               alt="logo"
-              style={{ height: 450 }}
+              style={{ height: "auto" ,width:300}}
               className="rounded-circle"
             />
           </div>
