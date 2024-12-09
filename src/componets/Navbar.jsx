@@ -19,7 +19,7 @@ function Navbar() {
             />
             <div className="ps-2">
               <div className="fs-5">
-                Akhi<span className="text-success">l</span>
+                kirtan<span className="text-success">'s</span>
               </div>
               <div>Web Developer</div>
             </div>
